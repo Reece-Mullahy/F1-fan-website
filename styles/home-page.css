@@ -2,6 +2,11 @@ body {
   font-family: Dosis;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .header1 {
   height: 120px;
   display: flex;
@@ -119,7 +124,6 @@ body {
 }
 
 .driver-team {
-
   font-weight: normal;
   font-size: 17px;
 }

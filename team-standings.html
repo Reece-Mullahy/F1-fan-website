@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>F1 Fan Central</title>
+    <title>F1 Team Standings</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/home-page.css">
+    <link rel="stylesheet" href="styles/team-standings.css">
   </head>
   <body style="height: 2000px">
 
@@ -23,10 +24,21 @@
       </div>
     </div>
 
-    <div class="driver-grid js-driver-grid">
+    <div class="team-grid js-team-grid">
+      <div class="team-profile">
+        <div class="team-picture-container">
+          <img class="car-picture" src="team-pictures/mercedes.avif">
+          <div class="team-flag-absolute">
+            <img class="team-flag" src="flags/tn_uk-flag.gif">
+          </div>
+          <div class="team-points">100</div>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Mercedes</div>
+        </div>
+      </div>
     </div>
-
-    <script src="data/driver-data.js"></script>
-    <script src="home-page-js/drivers.js"></script>
+    <script src="data/team-data.js"></script>
+    <script src="team-standing-js/team-standing.js"></script>
   </body>
 </html>
