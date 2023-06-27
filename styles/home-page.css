@@ -124,6 +124,19 @@ body {
   font-size: 17px;
 }
 
+.driver-points {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-radius: 50px;
+}
+
 .flag-absolute {
   width: 50px;
   height: 30px;
@@ -137,8 +150,8 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 25px;
-   border: solid;
-   border-color: rgb(238, 238, 238);
+  border: solid;
+  border-color: rgb(238, 238, 238);
 }
 
 .driver-profile:hover {

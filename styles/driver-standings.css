@@ -1,0 +1,55 @@
+.position,
+.position-name,
+.team,
+.position-points {
+  font-size: 35px;
+}
+
+.driver-standings-list {
+  margin-top: 230px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+
+}
+
+.standings-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.position {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.position-name {
+  flex: 1;
+}
+
+.flag-driver {
+  height: 30px;
+  width: 50px;
+  border-radius: 45px;
+  object-fit: cover;
+}
+
+.position-flag {
+  height: 30px;
+  width: 50px;
+  flex: 2;
+}
+
+.team {
+  flex: 1.5;
+}
+
+.position-points {
+  margin-right: 50px;
+}
