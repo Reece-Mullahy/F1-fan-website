@@ -1,0 +1,44 @@
+.pick-drivers {
+  position: fixed;
+  left: 10px;
+  bottom: 0;
+  top: 150px;
+}
+
+.driver-flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 220px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.driver-flex:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.name {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.pick-em-points {
+  margin-right: 20px;
+  font-size: 13px;
+}
+
+.driver-position {
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+.driver-selected {
+  background-color: black;
+  color: white;
+}

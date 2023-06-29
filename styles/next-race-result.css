@@ -1,0 +1,33 @@
+.next-race-results {
+  position: fixed;
+  left: 340px;
+  top: 150px;
+  bottom: 0px;
+}
+
+.race-flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 220px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.next-race-position {
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+.race-driver-name {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.points-from-race {
+  margin-right: 15px;
+  font-size: 13px;
+}

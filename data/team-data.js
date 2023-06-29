@@ -50,7 +50,7 @@ const teamData = [
 {
   name: 'Red Bull',
   car: 'team-pictures/red-bull.avif',
-  flag: 'flags/tn_as-flag.gif',
+  flag: 'flags/tn_au-flag.gif',
   points: 321
 },
 {
