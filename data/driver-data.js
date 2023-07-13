@@ -4,42 +4,42 @@ const driverData = [
   team: 'Williams',
   headshot: 'driver-pictures/alex-albon-williams-1.jpeg',
   countryFlag: 'flags/tn_th-flag.gif',
-  points: 7
+  points: 11
 },
 {
   name: 'Carlos Sainz',
   team: 'Ferrari',
   headshot: 'driver-pictures/carlos-sainz-ferrari-1.jpeg',
   countryFlag: 'flags/tn_sp-flag.gif',
-  points: 68
+  points: 83
 },
 {
   name: 'Charles Leclerc',
   team: 'Ferrari',
   headshot: 'driver-pictures/charles-leclerc-ferrari-1.jpeg',
   countryFlag: 'flags/tn_mn-flag.gif',
-  points: 54
+  points: 74
 },
 {
   name: 'Esteban Ocon',
   team: 'Alpine',
   headshot: 'driver-pictures/esteban-ocon-alpine-1.jpeg',
   countryFlag: 'flags/tn_fr-flag.gif',
-  points: 29
+  points: 31
 },
 {
   name: 'Fernando Alonso',
   team: 'Aston Martin',
   headshot: 'driver-pictures/fernando-alonso.jpeg',
   countryFlag: 'flags/tn_sp-flag.gif',
-  points: 117
+  points: 137
 },
 {
   name: 'George Russell',
   team: 'Mercedes',
   headshot: 'driver-pictures/george-russell-mercedes-1.jpeg',
   countryFlag: 'flags/tn_uk-flag.gif',
-  points: 65
+  points: 82
 },
 {
   name: 'Kevin Magnussen',
@@ -53,21 +53,21 @@ const driverData = [
   team: 'Aston Martin',
   headshot: 'driver-pictures/lance-stroll-aston-martin-raci-1.jpeg',
   countryFlag: 'flags/tn_ca-flag.gif',
-  points: 37
+  points: 44
 },
 {
   name: 'Lando Norris',
   team: 'McLaren',
   headshot: 'driver-pictures/lando-norris-mclaren-1.jpeg',
   countryFlag: 'flags/tn_uk-flag.gif',
-  points: 12
+  points: 42
 },
 {
   name: 'Lewis Hamilton',
   team: 'Mercedes',
   headshot: 'driver-pictures/lewis-hamilton-mercedes-1.jpeg',
   countryFlag: 'flags/tn_uk-flag.gif',
-  points: 102
+  points: 121
 },
 {
   name: 'Logan Sargeant',
@@ -81,14 +81,14 @@ const driverData = [
   team: 'Red Bull Racing',
   headshot: 'driver-pictures/max-verstappen-red-bull-racing-1.jpeg',
   countryFlag: 'flags/tn_nt-flag.gif',
-  points: 195
+  points: 255
 },
 {
   name: 'Nico Hulkenberg',
   team: 'Haas F1 Team',
   headshot: 'driver-pictures/nico-hulkenberg-haas-1.jpeg',
   countryFlag: 'flags/tn_gm-flag.gif',
-  points: 6
+  points: 9
 },
 {
   name: 'Nyck de Vries',
@@ -102,21 +102,21 @@ const driverData = [
   team: 'McLaren',
   headshot: 'driver-pictures/oscar-piastri-mclaren-1.jpeg',
   countryFlag: 'flags/tn_as-flag.gif',
-  points: 5
+  points: 17
 },
 {
   name: 'Pierre Gasly',
   team: 'Alpine',
   headshot: 'driver-pictures/pierre-gasly-alpine-1.jpeg',
   countryFlag: 'flags/tn_fr-flag.gif',
-  points: 15
+  points: 16
 },
 {
   name: 'Sergio Perez',
   team: 'Red Bull Racing',
   headshot: 'driver-pictures/sergio-perez-red-bull-racing-1.jpeg',
   countryFlag: 'flags/tn_mx-flag.gif',
-  points: 126
+  points: 156
 },
 {
   name: 'Valtteri Bottas',

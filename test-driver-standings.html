@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/home-page.css">
     <link rel="stylesheet" href="styles/future-standings.css">
     <link rel="stylesheet" href="styles/next-race-result.css">
+    <link rel="stylesheet" href="styles/buttons-test-standings.css">
 
   </head>
   <body style="height: 2000px">
@@ -27,17 +28,27 @@
     </div>
 
     <div class="pick-drivers js-pick-drivers">
-      <div class="driver-flex js-driver-flex">
-      </div>
     </div>
 
     <div class="next-race-results js-next-race">
-      <div class="race-flex">
-      </div>
+      
     </div>
 
+    <div class="buttons">
+      <button class="clear-button js-clear-button">CLEAR</button>
+      <button class="generate-button js-generate-button">GENERATE</button>
+    </div>
+
+    <div class="updated-standings js-updated-standings">
+    </div>
+    
+
+    <script src="data/race-results.js"></script>
+    <script src="data/pick-em-results.js"></script>
     <script src="data/driver-data.js"></script>
     <script src="pick-em-js/current-standing-display.js"></script>
-    <script src="pick-em-js/next-race-results.js"></script>
+    <script src="pick-em-js/next-race-results.js">
+    </script>
+    <script src="pick-em-js/buttons.js"></script>
   </body>
 </html>

@@ -1,0 +1,56 @@
+.buttons {
+  display: grid;
+  align-items: center;
+  position: fixed;
+  left: 660px;
+  top: 350px;
+}
+
+.clear-button {
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+
+  border: none;
+  font-family: dosis;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(3, 3, 57);
+  border-radius: 30px;
+  transition: opacity 0.2s;
+}
+
+.clear-button:hover{
+  cursor: pointer;
+  opacity: 0.9
+}
+
+.clear-button:active {
+  opacity: 0.7;
+}
+
+.generate-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+
+  border: none;
+  font-family: dosis;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(3, 3, 57);
+  border-radius: 30px;
+  transition: opacity 0.2s;
+}
+
+.generate-button:hover{
+  cursor: pointer;
+  opacity: 0.9
+}
+
+.generate-button:active {
+  opacity: 0.7;
+}

@@ -25,7 +25,9 @@
 
 .name {
   font-size: 13px;
-  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
 }
 
 .pick-em-points {
@@ -36,6 +38,11 @@
 .driver-position {
   font-size: 13px;
   padding-left: 8px;
+}
+
+.remove {
+  font-size: 10px;
+
 }
 
 .driver-selected {
