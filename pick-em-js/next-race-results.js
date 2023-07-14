@@ -13,7 +13,6 @@ function displayRace() {
         <div class="race-driver-name js-race-driver-name${currIndex}">${place.name}</div>
         <div class="points-from-race">+${place.points}pts</div>
       </div>
-      <button class="remove js-remove">X</button>
     `
     currIndex++;
   });

@@ -18,19 +18,20 @@ document.querySelector('.js-clear-button')
   });
 
 let newStandings = "";
+let newPosition = 1;
 document.querySelector('.js-generate-button')
   .addEventListener('click', () => {
     if (userPicks.length == 20) {
+      console.log(userPicks);
       userPicks.forEach((pick) => {
         newStandings += `
           <div class="new-standings-flex">
-            <div class="new-position">${position}</div>
+            <div class="new-position">${newPosition}.</div>
             <div class="new-name">${pick.name}</div>
-            <div class="new-points">${pick.points}</div>
+            <div class="new-points">${pick.points} pts</div>
           </div>
         `;
-
-        position++;
+        newPosition++;
       })
 
       document.querySelector('.js-updated-standings')
