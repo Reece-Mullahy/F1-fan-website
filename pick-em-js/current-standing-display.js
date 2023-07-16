@@ -11,7 +11,8 @@ function createDriverList() {
     currStandings += `
       <div class="driver-flex js-driver-flex"
       data-driver-name="${driver.name}"
-      data-driver-points="${driver.points}">
+      data-driver-points="${driver.points}"
+      data-driver-position=${currPosition}>
         <div class="driver-position">${currPosition}.</div>
         <div class="name js-name">${driver.name}</div>
         <div class="pick-em-points">${driver.points} pts</div>
@@ -33,13 +34,15 @@ function createDriverList() {
       currDriver.addEventListener('click', () => {
         const driverName = currDriver.dataset.driverName;
         const driverPoints = currDriver.dataset.driverPoints;
+        const driverPosition = currDriver.dataset.driverPosition;
 
         let contains;
         
         if (userPicks.length == 0) {
           userPicks.push({
             name: driverName,
-            points: +driverPoints + +raceResult[i].points
+            points: +driverPoints + +raceResult[i].points,
+            position: driverPosition
           });  
           document.querySelector(`.js-race-driver-name${i}`)
               .innerHTML = driverName;
@@ -55,7 +58,8 @@ function createDriverList() {
           if (!contains) {
             userPicks.push({
               name: driverName,
-              points: +driverPoints + raceResult[i].points
+              points: +driverPoints + +raceResult[i].points,
+              position: driverPosition
             });
             document.querySelector(`.js-race-driver-name${i}`)
               .innerHTML = driverName;

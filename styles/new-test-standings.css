@@ -1,6 +1,8 @@
 .updated-standings {
   display: grid;
+  grid-template-columns: 4fr 1fr;
   align-items: center;
+  justify-content: center;
   position: fixed;
   left: 900px;
   top: 150px;
@@ -32,4 +34,27 @@
 .new-points {
   margin-right: 20px;
   font-size: 13px;
+}
+
+.change-in-position {
+  font-size: 13px;
+  margin-left: 10px;
+  padding-bottom: 8px;
+}
+
+.positive-change {
+  font-size: 13px;
+  margin-left: 10px;
+  padding-bottom: 8px;
+  color: rgb(2, 92, 2);
+}
+
+.negative-change {
+  font-size: 13px;
+  margin-left: 10px;
+  padding-bottom: 8px;
+  color: rgb(211, 1, 1);
+}
+
+.no-change {
 }
