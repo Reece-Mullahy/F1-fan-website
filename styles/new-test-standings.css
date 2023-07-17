@@ -3,21 +3,18 @@
   grid-template-columns: 4fr 1fr;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  left: 900px;
-  top: 150px;
-  bottom: 0px;
 }
 
 .new-standings-flex {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  width: 220px;
+  width: 250px;
   padding-top: 3px;
   padding-bottom: 3px;
   margin-bottom: 8px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .new-position {
@@ -56,5 +53,3 @@
   color: rgb(211, 1, 1);
 }
 
-.no-change {
-}

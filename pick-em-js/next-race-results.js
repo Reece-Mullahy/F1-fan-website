@@ -11,7 +11,7 @@ function displayRace() {
       <div class="race-flex">
         <div class="next-race-position">${place.position}.</div>
         <div class="race-driver-name js-race-driver-name${currIndex}">${place.name}</div>
-        <div class="points-from-race">+${place.points}pts</div>
+        <div class="points-from-race">+${place.points} pts</div>
       </div>
     `
     currIndex++;

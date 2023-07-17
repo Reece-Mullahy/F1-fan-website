@@ -1,9 +1,6 @@
 .buttons {
   display: grid;
   align-items: center;
-  position: fixed;
-  left: 660px;
-  top: 350px;
 }
 
 .clear-button {
