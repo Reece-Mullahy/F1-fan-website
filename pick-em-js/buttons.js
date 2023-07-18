@@ -65,3 +65,12 @@ document.querySelector('.js-generate-button')
         .innerHTML = newStandings;
     }
   });
+
+  let canContinue = false;
+
+  document.querySelector('.js-continue')
+    .addEventListener('click', () => {
+      document.querySelector('.js-pick-em-directions').innerHTML = "";
+
+      canContinue = true;
+    })

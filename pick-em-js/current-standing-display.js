@@ -32,38 +32,40 @@ function createDriverList() {
   document.querySelectorAll('.js-driver-flex')
     .forEach((currDriver) => {
       currDriver.addEventListener('click', () => {
-        const driverName = currDriver.dataset.driverName;
-        const driverPoints = currDriver.dataset.driverPoints;
-        const driverPosition = currDriver.dataset.driverPosition;
+        if (canContinue) {
+          const driverName = currDriver.dataset.driverName;
+          const driverPoints = currDriver.dataset.driverPoints;
+          const driverPosition = currDriver.dataset.driverPosition;
 
-        let contains;
-        
-        if (userPicks.length == 0) {
-          userPicks.push({
-            name: driverName,
-            points: +driverPoints + +raceResult[i].points,
-            position: driverPosition
-          });  
-          document.querySelector(`.js-race-driver-name${i}`)
-              .innerHTML = driverName;
-          i++;
-        }
-        else {
-          userPicks.forEach((userEntry) => {
-            if (driverName === userEntry.name) {
-              contains = true;
-            }
-          })
-        
-          if (!contains) {
+          let contains;
+          
+          if (userPicks.length == 0) {
             userPicks.push({
               name: driverName,
               points: +driverPoints + +raceResult[i].points,
               position: driverPosition
-            });
+            });  
             document.querySelector(`.js-race-driver-name${i}`)
-              .innerHTML = driverName;
+                .innerHTML = driverName;
             i++;
+          }
+          else {
+            userPicks.forEach((userEntry) => {
+              if (driverName === userEntry.name) {
+                contains = true;
+              }
+            })
+          
+            if (!contains) {
+              userPicks.push({
+                name: driverName,
+                points: +driverPoints + +raceResult[i].points,
+                position: driverPosition
+              });
+              document.querySelector(`.js-race-driver-name${i}`)
+                .innerHTML = driverName;
+              i++;
+            }
           }
         }
 
@@ -92,7 +94,9 @@ function createDriverList() {
   document.querySelectorAll('.js-driver-flex')
     .forEach((selectedDriver) => {
       selectedDriver.addEventListener('click', () => {
-        selectedDriver.classList.add('driver-selected');
+        if (canContinue){
+          selectedDriver.classList.add('driver-selected');
+        }
       });
     });
   }
