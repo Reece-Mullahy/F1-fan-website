@@ -97,30 +97,21 @@ a {
 }
 
 .driver-profile {
-  width: 300px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  height: 300px;
-  transition: background-color 0.25s, color 0.25s;
-}
-
-.pfp-container {
-  margin-bottom: 10px;
-  position: relative;
-}
-
-.profile-picture {
-  width: 300px;
-}
-
-.driver-info {
   display: flex;
   flex-direction: column;
+  width: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  height: 250px;
+  justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  transition: background-color 0.25s, color 0.25s;
 }
 
 .driver-name {
   font-size: 35px;
   margin-bottom: 5px;
+  margin-top: 15px;
 }
 
 .driver-team {
@@ -129,37 +120,30 @@ a {
 }
 
 .driver-points {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: black;
+  font-size: 22px;
+  background-color: rgb(13, 4, 44);
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 15px;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 15px;
-  border-radius: 50px;
+  padding-bottom: 15px;
+  border-radius: 40px;
 }
 
-.flag-absolute {
-  width: 50px;
-  height: 30px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+.home-page-position {
+  font-size: 22px;
+  color: white;
+  background-color: rgb(13, 4, 44);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50%;
 }
 
-.driver-flag {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 25px;
-  border: solid;
-  border-color: rgb(238, 238, 238);
-}
 
 .driver-profile:hover {
-  cursor: pointer;
   background-color: rgb(13, 4, 44);
   color: white;
 }

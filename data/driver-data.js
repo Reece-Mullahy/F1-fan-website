@@ -2,141 +2,101 @@ const driverData = [
   {
   name: 'Alex Albon',
   team: 'Williams',
-  headshot: 'driver-pictures/alex-albon-williams-1.jpeg',
-  countryFlag: 'flags/tn_th-flag.gif',
   points: 11
 },
 {
   name: 'Carlos Sainz',
   team: 'Ferrari',
-  headshot: 'driver-pictures/carlos-sainz-ferrari-1.jpeg',
-  countryFlag: 'flags/tn_sp-flag.gif',
-  points: 83
+  points: 87
 },
 {
   name: 'Charles Leclerc',
   team: 'Ferrari',
-  headshot: 'driver-pictures/charles-leclerc-ferrari-1.jpeg',
-  countryFlag: 'flags/tn_mn-flag.gif',
-  points: 74
+  points: 80
 },
 {
   name: 'Esteban Ocon',
   team: 'Alpine',
-  headshot: 'driver-pictures/esteban-ocon-alpine-1.jpeg',
-  countryFlag: 'flags/tn_fr-flag.gif',
   points: 31
 },
 {
   name: 'Fernando Alonso',
   team: 'Aston Martin',
-  headshot: 'driver-pictures/fernando-alonso.jpeg',
-  countryFlag: 'flags/tn_sp-flag.gif',
-  points: 137
+  points: 139
 },
 {
   name: 'George Russell',
   team: 'Mercedes',
-  headshot: 'driver-pictures/george-russell-mercedes-1.jpeg',
-  countryFlag: 'flags/tn_uk-flag.gif',
-  points: 82
+  points: 90
 },
 {
   name: 'Kevin Magnussen',
   team: 'Haas F1 Team',
-  headshot: 'driver-pictures/kevin-magnussen-haas-1.jpeg',
-  countryFlag: 'flags/tn_da-flag.gif',
   points: 2
 },
 {
   name: 'Lance Stroll',
   team: 'Aston Martin',
-  headshot: 'driver-pictures/lance-stroll-aston-martin-raci-1.jpeg',
-  countryFlag: 'flags/tn_ca-flag.gif',
-  points: 44
+  points: 45
 },
 {
   name: 'Lando Norris',
   team: 'McLaren',
-  headshot: 'driver-pictures/lando-norris-mclaren-1.jpeg',
-  countryFlag: 'flags/tn_uk-flag.gif',
-  points: 42
+  points: 60
 },
 {
   name: 'Lewis Hamilton',
   team: 'Mercedes',
-  headshot: 'driver-pictures/lewis-hamilton-mercedes-1.jpeg',
-  countryFlag: 'flags/tn_uk-flag.gif',
-  points: 121
+  points: 133
 },
 {
   name: 'Logan Sargeant',
   team: 'Williams',
-  headshot: 'driver-pictures/logan-sargeant-williams-1.jpeg',
-  countryFlag: 'flags/tn_us-flag.gif',
   points: 0
 },
 {
   name: 'Max Verstappen',
   team: 'Red Bull Racing',
-  headshot: 'driver-pictures/max-verstappen-red-bull-racing-1.jpeg',
-  countryFlag: 'flags/tn_nt-flag.gif',
-  points: 255
+  points: 281
 },
 {
   name: 'Nico Hulkenberg',
   team: 'Haas F1 Team',
-  headshot: 'driver-pictures/nico-hulkenberg-haas-1.jpeg',
-  countryFlag: 'flags/tn_gm-flag.gif',
   points: 9
 },
 {
-  name: 'Nyck de Vries',
+  name: 'Daniel Ricciardo',
   team: 'AlphaTauri',
-  headshot: 'driver-pictures/nyck-de-vries-alphatauri-1.jpeg',
-  countryFlag: 'flags/tn_nt-flag.gif',
   points: 0
 },
 {
   name: 'Oscar Piastri',
   team: 'McLaren',
-  headshot: 'driver-pictures/oscar-piastri-mclaren-1.jpeg',
-  countryFlag: 'flags/tn_as-flag.gif',
-  points: 17
+  points: 27
 },
 {
   name: 'Pierre Gasly',
   team: 'Alpine',
-  headshot: 'driver-pictures/pierre-gasly-alpine-1.jpeg',
-  countryFlag: 'flags/tn_fr-flag.gif',
   points: 16
 },
 {
   name: 'Sergio Perez',
   team: 'Red Bull Racing',
-  headshot: 'driver-pictures/sergio-perez-red-bull-racing-1.jpeg',
-  countryFlag: 'flags/tn_mx-flag.gif',
-  points: 156
+  points: 171
 },
 {
   name: 'Valtteri Bottas',
   team: 'Alfa Romeo',
-  headshot: 'driver-pictures/valtteri-bottas-alfa-romeo-1.jpeg',
-  countryFlag: 'flags/tn_fi-flag.gif',
   points: 5
 },
 {
   name: 'Yuki Tsunoda',
   team: 'AlphaTauri',
-  headshot: 'driver-pictures/yuki-tsunoda-alphatauri-1.jpeg',
-  countryFlag: 'flags/tn_ja-flag.gif',
   points: 2
 },
 {
   name: 'Zhou Guanyu',
   team: 'Alfa Romeo',
-  headshot: 'driver-pictures/zhou-guanyu-alfa-romeo-1.jpeg',
-  countryFlag: 'flags/tn_ch-flag.gif',
   points: 4
 },
 ]

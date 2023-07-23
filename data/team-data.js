@@ -21,13 +21,13 @@ const teamData = [
   name: 'Aston Martin',
   car: 'team-pictures/aston-martin.avif',
   flag: 'flags/tn_uk-flag.gif',
-  points: 181
+  points: 184
 },
 {
   name: 'Ferrari',
   car: 'team-pictures/ferrari.avif',
   flag: 'flags/tn_it-flag.gif',
-  points: 157
+  points: 167
 },
 {
   name: 'Haas F1 Team',
@@ -39,19 +39,19 @@ const teamData = [
   name: 'McLaren',
   car: 'team-pictures/mclaren.avif',
   flag: 'flags/tn_uk-flag.gif',
-  points: 17
+  points: 87
 },
 {
   name: 'Mercedes',
   car: 'team-pictures/mercedes.avif',
   flag: 'flags/tn_gm-flag.gif',
-  points: 203
+  points: 223
 },
 {
   name: 'Red Bull',
   car: 'team-pictures/red-bull.avif',
   flag: 'flags/tn_au-flag.gif',
-  points: 411
+  points: 452
 },
 {
   name: 'Williams',

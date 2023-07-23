@@ -1,24 +1,22 @@
 let teamInfo = '';
 
+// sort teams points to accurately display their position
 teamData.sort(
   (team1, team2) => (team1.points < team2.points) ? 1 : (team1.points > team2.points) ? -1 : 0
 );
 
+let teamPosition = 1;
+
+// generate the html for each team
 teamData.forEach((team)=> {
   teamInfo += `
 <div class="team-profile">
-  <div class="team-picture-container">
-    <img class="car-picture" src=${team.car}>
-    <div class="team-flag-absolute">
-      <img class="team-flag" src=${team.flag}>
-    </div>
-    <div class="team-points">${team.points} Pts</div>
-  </div>
-  <div class="team-info">
-    <div class="team-name">${team.name}</div>
-  </div>
+  <div class="team-position">${teamPosition}</div>
+  <div class="team-name">${team.name}</div>
+  <div class="team-points">${team.points} pts</div>
 </div>
-  `
+`
+teamPosition++;
 })
 
 document.querySelector('.js-team-grid')

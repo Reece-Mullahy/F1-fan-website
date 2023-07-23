@@ -1,10 +1,10 @@
 let raceTemplate = '';
 
-let racePosition = 1;
-let racePoints = 0;
 let currIndex = 0;
-let removeButton = 0;
 
+// create html for when the user click on drivers to display for next race results
+// uses the list of positions to display position and points from that position
+// when user clicks on driver from current standings that driver's name is added to next object
 function displayRace() {
   raceResult.forEach((place) => {
     raceTemplate += `

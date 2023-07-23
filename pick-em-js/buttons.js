@@ -1,5 +1,9 @@
 let newStandings = "";
 let newPosition = 1;
+
+// pressing the clear button will remove all names from the results for next race
+// all drivers that have been clicked will return to original css display
+// reset list that contains updated standings to be empty
 document.querySelector('.js-clear-button')
   .addEventListener('click', () => {
     for (let j = 0; j < 20; j++) {
@@ -25,6 +29,10 @@ document.querySelector('.js-clear-button')
     newPosition = 1;
   });
 
+// when clicking "generate" button only create the next display of updated standings if all drivers are selected
+// sort drivers with new points because standings could've changed
+// calculated how many places a driver moved and create display based on negative or positive movement
+// create new html for the new standings and display the new standings on the screen
 document.querySelector('.js-generate-button')
   .addEventListener('click', () => {
     if (userPicks.length == 20) {
@@ -66,6 +74,9 @@ document.querySelector('.js-generate-button')
     }
   });
 
+
+  // set a boolean to determine when user can start selecting drivers
+  // only let user use this page once the user has pressed continue after reading directions
   let canContinue = false;
 
   document.querySelector('.js-continue')

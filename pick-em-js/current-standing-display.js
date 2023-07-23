@@ -1,3 +1,4 @@
+// sort drivers based on points to accurately display drivers in correct positions
 driverData.sort(
   (driver1, driver2) => (driver1.points < driver2.points) ? 1 : (driver1.points > driver2.points) ? -1 : 0
 );
@@ -6,6 +7,7 @@ let currPosition = 1;
 let currStandings = '';
 let raceIndex = 0;
 
+// creates a flexbox for each driver and adds the flexbox to the grid that contains all drivers
 function createDriverList() {
   driverData.forEach((driver) => {
     currStandings += `
@@ -75,22 +77,10 @@ function createDriverList() {
           })
       });
     });
-  
-/*
-  // when user clicks on a driver, the driver will be placed into the next open space in the race results
-  document.querySelectorAll('.js-name')
-    .forEach((selectedDriver) => {
-      selectedDriver.addEventListener('click', () => {
-        document.querySelector(`.js-race-driver-name${raceIndex}`)
-          .innerHTML = selectedDriver.innerHTML;
-          raceIndex++;
-    });
-    
-  });
-  */
 
 
-  // when user clicks on a driver change the text and background color to inditcate driver has been selected
+  // when user clicks on a driver change the text and background color to indicate driver has been selected
+  // only works after user has continued from the directions
   document.querySelectorAll('.js-driver-flex')
     .forEach((selectedDriver) => {
       selectedDriver.addEventListener('click', () => {
