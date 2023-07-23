@@ -2,7 +2,7 @@ let raceTemplate = '';
 
 let currIndex = 0;
 
-// create html for when the user click on drivers to display for next race results
+// create html for when the user clicks on drivers to display for next race results
 // uses the list of positions to display position and points from that position
 // when user clicks on driver from current standings that driver's name is added to next object
 function displayRace() {

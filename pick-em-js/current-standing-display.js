@@ -5,7 +5,6 @@ driverData.sort(
 
 let currPosition = 1;
 let currStandings = '';
-let raceIndex = 0;
 
 // creates a flexbox for each driver and adds the flexbox to the grid that contains all drivers
 function createDriverList() {
@@ -28,7 +27,7 @@ function createDriverList() {
     .innerHTML = currStandings;
 
   // when the user clicks on a driver box, the driver along with their new total points is pushed into a seperate list of objects
-  // the driver clicked on also appears in the next open spot in the next race results
+  // the driver selected also appears in the next open spot in the next race results
   // only allows for driver to be inserted into race results once
   let i = 0;
   document.querySelectorAll('.js-driver-flex')

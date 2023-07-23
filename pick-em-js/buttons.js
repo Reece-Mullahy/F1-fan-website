@@ -2,7 +2,7 @@ let newStandings = "";
 let newPosition = 1;
 
 // pressing the clear button will remove all names from the results for next race
-// all drivers that have been clicked will return to original css display
+// all drivers that have been selected will return to original css display
 // reset list that contains updated standings to be empty
 document.querySelector('.js-clear-button')
   .addEventListener('click', () => {
