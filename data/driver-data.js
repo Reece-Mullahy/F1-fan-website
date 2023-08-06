@@ -7,27 +7,27 @@ const driverData = [
 {
   name: 'Carlos Sainz',
   team: 'Ferrari',
-  points: 87
+  points: 92
 },
 {
   name: 'Charles Leclerc',
   team: 'Ferrari',
-  points: 80
+  points: 99
 },
 {
   name: 'Esteban Ocon',
   team: 'Alpine',
-  points: 31
+  points: 35
 },
 {
   name: 'Fernando Alonso',
   team: 'Aston Martin',
-  points: 139
+  points: 149
 },
 {
   name: 'George Russell',
   team: 'Mercedes',
-  points: 90
+  points: 99
 },
 {
   name: 'Kevin Magnussen',
@@ -37,17 +37,17 @@ const driverData = [
 {
   name: 'Lance Stroll',
   team: 'Aston Martin',
-  points: 45
+  points: 47
 },
 {
   name: 'Lando Norris',
   team: 'McLaren',
-  points: 60
+  points: 69
 },
 {
   name: 'Lewis Hamilton',
   team: 'Mercedes',
-  points: 133
+  points: 148
 },
 {
   name: 'Logan Sargeant',
@@ -57,7 +57,7 @@ const driverData = [
 {
   name: 'Max Verstappen',
   team: 'Red Bull Racing',
-  points: 281
+  points: 314
 },
 {
   name: 'Nico Hulkenberg',
@@ -72,17 +72,17 @@ const driverData = [
 {
   name: 'Oscar Piastri',
   team: 'McLaren',
-  points: 27
+  points: 34
 },
 {
   name: 'Pierre Gasly',
   team: 'Alpine',
-  points: 16
+  points: 22
 },
 {
   name: 'Sergio Perez',
   team: 'Red Bull Racing',
-  points: 171
+  points: 189
 },
 {
   name: 'Valtteri Bottas',
@@ -92,7 +92,7 @@ const driverData = [
 {
   name: 'Yuki Tsunoda',
   team: 'AlphaTauri',
-  points: 2
+  points: 3
 },
 {
   name: 'Zhou Guanyu',

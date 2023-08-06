@@ -7,7 +7,7 @@ teamData.sort(
 
 let teamPosition = 1;
 
-// generate the html for each team
+// generate the html for each team and their position
 teamData.forEach((team)=> {
   teamInfo += `
 <div class="team-profile">

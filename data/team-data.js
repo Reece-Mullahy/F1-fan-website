@@ -5,19 +5,19 @@ const teamData = [
 },
 {
   name: 'AlphaTauri',
-  points: 2
+  points: 3
 },
 {
   name: 'Alpine',
-  points: 47
+  points: 57
 },
 {
   name: 'Aston Martin',
-  points: 184
+  points: 196
 },
 {
   name: 'Ferrari',
-  points: 167
+  points: 191
 },
 {
   name: 'Haas F1 Team',
@@ -25,15 +25,15 @@ const teamData = [
 },
 {
   name: 'McLaren',
-  points: 87
+  points: 103
 },
 {
   name: 'Mercedes',
-  points: 223
+  points: 247
 },
 {
   name: 'Red Bull',
-  points: 452
+  points: 503
 },
 {
   name: 'Williams',
