@@ -2,7 +2,7 @@
 
 This site displays the driver standings and team standings in the current Formula 1 2023 season. There is also a feature where a user can
 predict the results for the next race and see how the current driver standings will be affected by the selected race result. The new
-standings displays where each driver and their new position along with how many spots they moved up or down from their old position.
+standings displays each driver and their new position along with how many spots they moved up or down from their old position.
 
 ## Example
 
